@@ -8,8 +8,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4.5fr;
-    grid-template-rows: 1fr 4.5fr;
+    grid-template-columns: minmax(300px,1fr) 4fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-areas: 
     "sidebar header"
     "sidebar main";
@@ -26,28 +26,26 @@ body {
 }
 
 .nav-1 {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 20px;
     padding-left: 14px;
-    font-weight: 500;
 }
 
 .nav-2 {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 20px;
     padding-left: 14px;
-    font-weight: 500;
 }
 
 .item {
     display: flex;
-    gap: 18px;
+    gap: 20px;
 }
 
 .item img {
@@ -56,7 +54,8 @@ body {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 30px;
+    font-weight: 600;
     color: white;
     display: flex;
     gap: 14px;
