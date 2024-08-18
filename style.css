@@ -170,4 +170,25 @@ body {
 .main {
     grid-area: main;
     background-color: rgba(225, 232, 240, 0.5);
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "project announce"
+    "project trending";
+}
+
+.project {
+    grid-area: project;
+    background-color: red;
+}
+
+.announce {
+    grid-area: announce;
+    background-color: blue;
+}
+
+.trending {
+    grid-area: trending;
+    background-color: green;
 }
