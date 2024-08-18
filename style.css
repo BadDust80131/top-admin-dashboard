@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -11,6 +15,25 @@
 .sidebar {
     grid-area: sidebar;
     background-color: red;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "nav-1"
+    "nav-2";
+    height: 50%;
+}
+
+.title {
+    grid-area: title;
+}
+
+.nav-1 {
+    grid-area: nav-1;
+}
+
+.nav-2 {
+    grid-area: nav-2;
 }
 
 .header {
