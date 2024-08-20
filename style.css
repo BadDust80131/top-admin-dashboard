@@ -13,7 +13,7 @@ body {
     grid-template-areas: 
     "sidebar header"
     "sidebar main";
-    height: 100vh; /* Temp */
+    height: 100vh;
 }
 
 .sidebar {
@@ -171,7 +171,6 @@ body {
     grid-area: main;
     background-color: rgba(225, 232, 240, 0.5);
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "project announce"
@@ -180,13 +179,40 @@ body {
 
 .project {
     grid-area: project;
-    background-color: red;
+    background-color: #E2E8F0;
+    padding: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.project-sub {
+    display: grid;
+    justify-items: center;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+    height: 225px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
 }
 
 .announce {
     grid-area: announce;
     background-color: #E2E8F0;
     padding: 20px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 12px;
