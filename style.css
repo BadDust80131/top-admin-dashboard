@@ -94,10 +94,10 @@ body {
 
 .top-left input {
     width: 40vw;
-    height: 25px;
+    height: 30px;
     background-color: #e1e8f0;
     border: 0px solid #000;
-    border-radius: 12px;
+    border-radius: 15px;
 }
 
 .top-right {
