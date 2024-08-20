@@ -206,6 +206,28 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 4px 4px 4px lightgray;
+    border-left: 10px solid #F0B429;
+    padding: 25px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-icons {
+    padding-top: 50px;
+    align-self: flex-end;
+    display: flex;
+    gap: 32px;
+}
+
+.card-icons img {
+    width: 30px;
+}
+
+.card-title {
+    font-size:20px;
+    font-weight: 800;
 }
 
 .announce {
